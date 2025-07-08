@@ -5,7 +5,17 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Repos/HW06/HW06/Content/Maps/Default.umap"
+				"C:/Repos/HW06/HW06/Content/Maps/Default.umap",
+				"C:/Repos/HW06/HW06/Content/Blueprints/BP_RotatePlatform.uasset",
+				"C:/Repos/HW06/HW06/Content/Blueprints/BP_RotateBar.uasset",
+				"C:/Repos/HW06/HW06/Content/Blueprints/BP_DefaultPlatform.uasset",
+				"C:/Repos/HW06/HW06/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Repos/HW06/HW06/Content/Blueprints/BP_MovingPlatform.uasset",
+				"C:/Repos/HW06/HW06/Content/Blueprints/BP_Test.uasset",
+				"C:/Repos/HW06/HW06/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Test.uasset",
+				"C:/Repos/HW06/HW06/Content/Maps/PerformanceTest.umap",
+				"C:/Repos/HW06/HW06/Content/Maps/PerformanceTest2.umap",
+				"C:/Repos/HW06/HW06/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Test2.uasset"
 			]
 		}
 	]

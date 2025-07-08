@@ -1,6 +1,14 @@
 {
 	"SourceFiles": [
 		"C:\\Repos\\HW06\\HW06\\Source\\HW06\\HW06.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderDebuggerSupport\\RiderDebuggerSupport.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderLC\\RiderLC.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"C:\\Repos\\HW06\\HW06\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
 		"C:\\Repos\\HW06\\HW06\\Source\\HW06.Target.cs",
 		"C:\\Repos\\HW06\\HW06\\Source\\HW06Editor.Target.cs"
 	],

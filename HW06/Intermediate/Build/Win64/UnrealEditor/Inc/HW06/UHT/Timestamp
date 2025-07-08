@@ -1,2 +1,6 @@
 C:\Repos\HW06\HW06\Source\HW06\HW06Character.h
 C:\Repos\HW06\HW06\Source\HW06\HW06GameMode.h
+C:\Repos\HW06\HW06\Source\HW06\Interfaces\IFloorAction.h
+C:\Repos\HW06\HW06\Source\HW06\Levels\HWPlatformBase.h
+C:\Repos\HW06\HW06\Source\HW06\Levels\HWRotateActor.h
+C:\Repos\HW06\HW06\Source\HW06\Levels\HWMovingPlatform.h
