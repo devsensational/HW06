@@ -1,12 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// 프로젝트 설정의 Description 페이지에 저작권 정보를 입력하세요.
 
 #include "HWMovingPlatform.h"
+
+#include "FHWPlatformStats.h"
 
 AHWMovingPlatform::AHWMovingPlatform()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
+	// 기본값
 }
 
 void AHWMovingPlatform::BeginPlay()
@@ -24,25 +26,16 @@ void AHWMovingPlatform::Tick(float DeltaTime)
 
 void AHWMovingPlatform::Action(float DeltaTime)
 {
-	if (PlatformMesh)
+	FVector NewLocation = GetActorLocation();
+	NewLocation += GetActorForwardVector() * PlatformStats.MovementSpeed * DeltaTime;
+	SetActorLocation(NewLocation);
+
+	// Max Range 체크 후 제거
+	if (FVector::Dist(NewLocation, PlatformStats.StartPosition) >= PlatformStats.MaxRange)
 	{
-		// Calculate the new position based on the movement speed and delta time
-		FVector NewPosition = PlatformMesh->GetComponentLocation() + (FVector::ForwardVector * MovementSpeed * GetWorld()->GetDeltaSeconds());
-		
-		// Check if the new position is within the max range
-		if (FVector::Dist(StartPosition, NewPosition) <= MaxRange)
-		{
-			PlatformMesh->SetWorldLocation(NewPosition);
-		}
-		else
-		{
-			// Reset to start position if max range exceeded
-			PlatformMesh->SetWorldLocation(StartPosition);
-		}
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("PlatformMesh is not set!"));
+		// 플랫폼을 제거하거나 다른 동작을 수행
+		Destroy();
+		// 또는 다른 로직을 추가
 	}
 }
 

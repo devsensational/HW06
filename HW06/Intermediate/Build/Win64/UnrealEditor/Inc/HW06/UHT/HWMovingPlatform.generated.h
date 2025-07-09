@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HW06_HWMovingPlatform_generated_h
 
-#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHWMovingPlatform(); \
 	friend struct Z_Construct_UClass_AHWMovingPlatform_Statics; \
@@ -23,7 +23,7 @@ public: \
 	DECLARE_SERIALIZER(AHWMovingPlatform)
 
 
-#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AHWMovingPlatform(AHWMovingPlatform&&); \
@@ -35,12 +35,12 @@ public: \
 	NO_API virtual ~AHWMovingPlatform();
 
 
-#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_11_PROLOG
-#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_14_GENERATED_BODY \
+#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_13_PROLOG
+#define FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Repos_HW06_HW06_Source_HW06_Levels_HWMovingPlatform_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

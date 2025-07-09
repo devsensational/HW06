@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// 프로젝트 설정의 Description 페이지에 저작권 정보를 입력하세요.
 
 #pragma once
 
@@ -7,6 +7,8 @@
 #include "GameFramework/Actor.h"
 #include "Interfaces/IFloorAction.h"
 #include "HWMovingPlatform.generated.h"
+
+struct FHWPlatformStats;
 
 UCLASS()
 class HW06_API AHWMovingPlatform : public AHWPlatformBase
@@ -22,19 +24,6 @@ protected:
 public:	
 	virtual void Tick(float DeltaTime) override;
 
-	//
+	// 플랫폼 액션: 해당 클래스는 앞으로 이동
 	virtual void Action(float DeltaTime) override;
-	
-	// Platform movement speed
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform Settings")
-	float MovementSpeed = 100.0f;
-
-	// Platform Max range
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Platform Settings")
-	float MaxRange = 500.0f;
-
-	// Platform start position
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Platform Settings")
-	FVector StartPosition;
-	
 };
